@@ -23,8 +23,5 @@
         "psr-4": {
             "SebastianBingham\\FaerunianCalendar\\Tests\\": "tests/"
         }
-    },
-    "require-dev": {
-        // Add any development dependencies here
     }
 }
