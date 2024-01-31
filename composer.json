@@ -1,0 +1,30 @@
+{
+    "name": "sebastianbingham/faeruniancalendar",
+    "description": "This package provides a functionality to calculate various Faerunian date-related information based on a given date or the current date in the Gregorian calendar. It includes information such as the Faerunian date, name, description, and additional year differences.",
+    "type": "library",
+    "keywords": ["php", "package", "composer", "faerunian"],
+    "homepage": "https://github.com/sebastianbingham/faeruniancalendar-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Bingham",
+            "email": "sebastian@sebastianbingham.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "SebastianBingham\\FaerunianCalendar\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SebastianBingham\\FaerunianCalendar\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        // Add any development dependencies here
+    }
+}
